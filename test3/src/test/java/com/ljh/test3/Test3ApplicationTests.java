@@ -1,14 +1,15 @@
-package com.ljh.backend;
+package com.ljh.test3;
 
-import com.ljh.backend.domain.User;
-import com.ljh.backend.mapper.UserMapper;
+import com.ljh.test3.domain.User;
+import com.ljh.test3.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
+
 @SpringBootTest
-class BackendApplicationTests {
+class Test3ApplicationTests {
     @Autowired
     private UserMapper userMapper;
     @Test
@@ -18,7 +19,5 @@ class BackendApplicationTests {
             System.out.println(user);
         }
     }
-
-
 
 }
