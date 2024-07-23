@@ -9,6 +9,7 @@
         <module name="backend" />
         <module name="springboot-mybatis" />
         <module name="test3" />
+        <module name="springboot-junit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="backend" options="-parameters" />
       <module name="backend101" options="-parameters" />
       <module name="spingboot-mybatis" options="-parameters" />
+      <module name="springboot-junit" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="test3" options="-parameters" />
     </option>
