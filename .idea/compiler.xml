@@ -9,6 +9,7 @@
         <module name="backend" />
         <module name="springboot-mybatis" />
         <module name="test3" />
+        <module name="springboot-redis" />
         <module name="springboot-junit" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
       <module name="spingboot-mybatis" options="-parameters" />
       <module name="springboot-junit" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
       <module name="test3" options="-parameters" />
     </option>
   </component>
